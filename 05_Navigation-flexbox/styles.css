@@ -4,7 +4,7 @@ body{
 }
 header{
     display: flex;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid  rgb(0,0,0);
     justify-content: space-between;
     
 }
@@ -16,7 +16,7 @@ header ul{
 }
 header ul li a{
     text-decoration: none;
-    color: green;
+    color: rgb(0, 153, 0);
 }
 header h1{
     text-transform: uppercase;
