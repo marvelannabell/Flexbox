@@ -1,0 +1,25 @@
+.container{
+    width: 55%;
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 80px 200px;
+    /* margin: 40px; */
+    /* gap:20px; */
+    justify-content: space-between;
+    max-width: 70vw;
+}
+.container h2{
+    font-size: 26px;
+    line-height: 1.2;
+    font-family: Georgia, serif;
+    font-weight: 600;
+    
+}
+.container__article{
+    width: 28%;
+    
+    font-family: Helvetica,sans-serif;
+    font-size: 14px;
+    /* width: 20%; */
+    line-height: 1.5;
+}
