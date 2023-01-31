@@ -1,0 +1,24 @@
+body{
+    width: 52%;
+    margin: 100px
+}
+header{
+    display: flex;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+    
+}
+header ul{
+    
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+}
+header ul li a{
+    text-decoration: none;
+    color: green;
+}
+header h1{
+    text-transform: uppercase;
+    font-family:  Helvetica, sans-serif;
+}
