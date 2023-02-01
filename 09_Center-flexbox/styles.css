@@ -1,0 +1,22 @@
+body{min-height: 100vh;
+    /* border: 1px solid black; */
+    display: flex;
+  
+    background-color: rgb(238, 238, 238);
+    /* align element horizontaly */
+    justify-content: center;
+    /* align element vertically */
+    align-items: center;
+}
+div{vertical-align: middle;
+    max-width:25vw ;
+    max-height: 5vh;
+    border:1px solid black;
+    padding: 20px; 
+    margin: 0px;
+    border-radius: 8px;
+    background-color:rgb(255, 255, 255) ;
+}
+div h3{
+    margin-top: 0;
+}

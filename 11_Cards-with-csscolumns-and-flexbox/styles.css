@@ -1,0 +1,78 @@
+body{
+    margin: 100px;
+    width: 50vw;
+    min-height: 100vh;
+    background-color: rgb(238, 238, 238);;
+}
+h2{
+    font-size:30px ;
+    margin-bottom:  40px; ;
+}
+.card{
+   
+    /* display: flex; */
+    max-width: 320px;
+    overflow: hidden;
+    background-color: white;
+    border:3px solid rgb(178, 177, 177);
+    border-radius: 10px;
+}
+.cards-one{
+height: 210vh;
+    display: flex;
+   flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-content: flex-start; */
+    flex-wrap: wrap;
+    gap:30px; 
+}
+.cards-two{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* .masonry{
+    height: 100vh;
+} */
+.card section, .card footer{
+    padding: 20px;
+    font-size: 1.3rem;
+    font-family:  Helvetica, sans-serif;
+}
+.card footer{
+    border-top: 2px solid rgb(210, 208, 208);
+    height: 7vh;
+    max-height: 7vh;
+}
+/* .card section{
+    height: ;
+} */
+.cards-two .card {
+ display: flex;
+ flex-wrap: wrap;
+
+    
+}
+.cards-two .card footer{
+
+align-self: flex-end;
+  
+}
+.card img{
+    width: 320px;
+    object-fit: cover;
+}
+.cards-one .card:nth-child(1),.cards-one .card:nth-child(5) {
+    height: 54vh;
+}
+.cards-one .card:nth-child(2),.cards-one .card:nth-child(6) {
+    height: 61vh;
+}
+.cards-one .card:nth-child(3),.cards-one .card:nth-child(7) {
+    height: 84vh;
+}
+.cards-one .card:nth-child(4),.cards-one .card:nth-child(8) {
+    height: 61vh;
+}
+
