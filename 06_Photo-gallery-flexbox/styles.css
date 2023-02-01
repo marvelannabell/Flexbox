@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(188, 187, 187);
+    margin: 100px;
+}
+ul {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    list-style-type: none;
+    gap:40px
+}
+ul li{
+    padding: 30px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    border: 8px solid black
+}
+ul li img{
+    
+    vertical-align: middle;
+}
