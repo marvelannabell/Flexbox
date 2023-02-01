@@ -1,0 +1,29 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px
+}
+
+.container img {
+    border-radius: 10px;
+}
+
+.container img:nth-child(1),
+.container img:nth-child(3),
+.container img:nth-child(4) {
+    width: 5vw;
+    object-fit: cover;
+}
+
+.container img:nth-child(2) {
+    padding: 0px 20px;
+    background-color: black;
+    object-fit: cover;
+}
